@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const mysql = require('mysql2');
 
 exports.handler = (event, context, callback) => {
@@ -56,4 +57,13 @@ exports.handler = (event, context, callback) => {
             });
         }
     });
+=======
+exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello from Lambda!'),
+    };
+    return response;
+>>>>>>> b821191fb025a44dcd9435f45d67c40ba66dba87
 };

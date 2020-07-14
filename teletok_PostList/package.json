@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "mysql": "^2.18.1",
+>>>>>>> b821191fb025a44dcd9435f45d67c40ba66dba87
     "mysql2": "^2.1.0"
   }
 }
