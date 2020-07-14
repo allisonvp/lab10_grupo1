@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const mysql = require("mysql2");
 const querystr = require('querystring');
 
@@ -117,4 +118,13 @@ exports.handler = (event, context, callback) => {
         });
     }
 
+=======
+exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello from Lambda!'),
+    };
+    return response;
+>>>>>>> 41300e2e481d3732e0a3dab5f6b5f85ccb513441
 };
